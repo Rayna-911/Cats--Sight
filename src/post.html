@@ -1,0 +1,74 @@
+﻿<html>
+    <head>
+		<title> Post</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+        <link rel="stylesheet" href="../css/post.css" />
+		<script src="../js/Windows.js" type="text/javascript"></script>    
+    </head>
+    
+    <body>
+    <tr>
+        <div class="c1">
+        <nav>
+            <ul class="Nav">
+                <li class="Nav" id="home"><a href="HomePage.html" class="homeIcon">Home</a></li>
+                <li class="Nav" id="news"><a href="browsing1.html">NU Info</a></li>
+                <li class="Nav" id="about"><a href="browsing1.html">Application</a></li>
+                <li class="Nav" id="services" style="border-radius: 0 6px 6px 0;"><a href="browsing1.html">NU Life</a></li>
+            </ul>
+       </nav>
+    </tr>
+       
+	<h1>&nbsp;</h1>
+    <div class="info"> 
+		<label for="Category"></label>
+		<select name="Category" id="Category" style="border-radius:6px;border-color:#B8B8DB">
+			<option>NU Info</option>
+			<option>Application</option>
+			<option>NU Life</option>
+		</select>
+		<input name="Title" type="text" id="Title" value="Title" size="50" style="border-radius:6px;"/>
+		<label for="Title"></label>
+    
+		<p>&nbsp; </p>
+		<p>
+			<label  for="Post"></label>
+			<textarea  class="post" style="border-radius:6px;border-color:#B8B8DB" name="Post" id="Post" cols="80" rows="20">The above links demonstrate a basic navigational structure using an unordered list styled with CSS. Use this as a starting point and modify the properties to produce your own unique look. If you require flyout menus, create your own using a Spry menu, a menu widget from Adobe's Exchange or a variety of other javascript or CSS solutions.
+			
+			If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.
+			The above links demonstrate a basic navigational structure using an unordered list styled with CSS. Use this as a starting point and modify the properties to produce your own unique look. If you require flyout menus, create your own using a Spry menu, a menu widget from Adobe's Exchange or a variety of other javascript or CSS solutions.
+			
+			If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.
+			The above links demonstrate a basic navigational structure using an unordered list styled with CSS. Use this as a starting point and modify the properties to produce your own unique look. If you require flyout menus, create your own using a Spry menu, a menu widget from Adobe's Exchange or a variety of other javascript or CSS solutions.
+
+			If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.
+			</textarea>
+		</p>
+		<input type="submit"  name="Emojy" id="Emojy" class="buttonr1" value="Emotion" />
+		<input type="submit" name="Photo" id="Photo"  class="buttonr1"value="Photo" />
+		<input type="submit" name="At" id="At"  class="buttonr1"value="Mention" />
+		<input type="submit" name="Place" id="Place"  class="buttonr1" value="Place" />
+		<input type="submit" name="Save" id="Save"  class="buttonr1" value="Save" onClick="save()" />
+		<input type="submit" name="cancel" id="cancel" class="buttonr1" value="Cancel" onClick="quit()"> 
+		<input type="submit" name="post" id="post" class="buttonr1" value="Post" onClick="post()" >
+		<p>&nbsp;</p>
+		<p>&nbsp; </p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+    </div>
+    <div class="sidebar1">
+		<ul class="nav1">
+			<li><img <img src="../img/littleyellowman.jpeg" width="180" height="250" /></li>
+			<li><div align="center" class="buttonr"><a href="post.html">Post</a></div></li>
+			<li><div align="center" class="buttonr"><a href="Me.html">ME</a></div></li>
+			<li><div align="center" class="buttonr"><a href="LogIn.html">Log Out</a></div></li>
+			<li><div align="center" class="buttonr"><a href="article_reading.html">News</a></div></li>
+		</ul>
+    </div>
+     
+	<script type="text/javascript">
+		var TabbedPanels2 = new Spry.Widget.TabbedPanels("TabbedPanels2");
+	</script>
+    </body>
+</html>

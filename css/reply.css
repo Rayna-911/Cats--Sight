@@ -1,0 +1,40 @@
+body{
+				background-image:url("../img/watercolor1.jpg");}
+.buttonr{
+	  margin-bottom:10px;
+	  margin-left:0px;
+		font-family:Verdana;
+
+
+	  text-align:center;
+		font-weight:bold;
+		position: relative;
+		width:52px;
+		height:25px;
+		border-radius: 12px; 
+		border-width: 2px;
+		 font: 10px/1 Lobster,Arial,sans-serif;
+       color: #5d5d5d;
+       background-color:#f0f0f0;
+       border-color:#f0f0f0;
+		-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+		}
+		.buttonr1{
+	  margin-bottom:10px;
+	  margin-left:0px;
+		font-family:Verdana;
+
+
+	  text-align:center;
+		font-weight:bold;
+		position: relative;
+		width:66px;
+		height:25px;
+		border-radius: 12px; 
+		border-width: 2px;
+		 font: 10px/1 Lobster,Arial,sans-serif;
+       color: #5d5d5d;
+       background-color:#f0f0f0;
+       border-color:#f0f0f0;
+		-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+		

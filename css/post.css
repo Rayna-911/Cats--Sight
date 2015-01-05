@@ -1,0 +1,138 @@
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; 
+	overflow: hidden; 
+}
+
+
+.c1{ 
+	width:1250px;
+	height:100px;
+  float:left;
+  background-image:url("../img/watercolor1.jpg"); 
+}
+.sidebar1 {
+	float: right;
+	width: 210px;
+	height: 900px;
+	MARGIN-top:25PX;
+	MARGIN-right:5PX;
+	background-image:url("../img/watercolor1.jpg");
+	padding-bottom: 10px;
+        margin-right:0px;
+}
+.content {
+    
+	padding: 10px 0;
+	width: 770px;
+	float: right;
+        
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+ul.nav1 {
+	list-style: none; 
+	border-top: 1px solid #f1f1f6; 
+	margin-bottom: 15px; 
+}
+ul.nav1 li {
+	border-bottom: 1px solid #f1f1f6; 
+}
+ul.nav1 a, ul.nav1 a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	width: 160px;  
+	text-decoration: none;
+	background-color:#696992；
+}
+ul.nav1 a:hover, ul.nav1 a:active, ul.nav1 a:focus { 
+	background-color:	#7B7BBC; 
+	-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+	color: #FFF;
+}
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.info{
+
+	margin-top:20px;
+	width:600px;
+	height:500px;
+	float:left;
+	
+	border:1;
+	}
+.buttonr{
+	  margin-bottom:10px;
+	  margin-left:0px;
+		font-family:Verdana;
+	
+		font-size:15px;
+		color: white;
+		text-align:relative;
+		font-weight:bold;
+		position: relative;
+		width:200px;
+		height:35px;
+		border-radius: 12px; 
+		border-width: 2px;
+		-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+		}
+.buttonr1{
+	  margin-top:10px;
+	  margin-bottom:15px;
+	  margin-left:12px;
+		font-family:Verdana;
+		font-weight:light;
+		font-size:12px;
+		color: #5d5d5d;
+	  text-align:relative;
+		font-weight:bold;
+		position: relative;
+		width:65px;
+		height:35px;
+		border-radius: 12px; 
+		border-width: 2px;
+		-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+		}

@@ -1,0 +1,105 @@
+﻿<html>
+    <head>
+		<title>ME</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+		<link href="../css/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+		<link href="../css/background.css" rel="stylesheet" type="text/css" />
+		<script src="../js/SpryTabbedPanels.js" type="text/javascript"></script>
+		<script src="../js/Windows.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+    <tr>
+        <div class="c1">
+        <nav>
+            <ul class="Nav">
+                <li class="Nav" id="home"><a href="HomePage.html" class="homeIcon">Home</a></li>
+                <li class="Nav" id="news"><a href="NU Info.html">NU Info</a></li>
+                <li class="Nav" id="about"><a href="#about">Application</a></li>
+                <li class="Nav" id="services"  style="border-radius: 0 6px 6px 0;"><a href="#services">NU Life</a></li>
+                <button  class="search">Search</button>
+                <p style="float:right; margin-left:20px; margin-top:0px;"><input type="text" name="search" size="30" style="border-radius:6px;"/></p>
+            </ul>
+		</nav>
+     </tr>
+	 
+	<h1>&nbsp;</h1>
+	<h1 class="h1"></h1>
+	<div class="info">
+		<div id="TabbedPanels1" class="TabbedPanels">
+        
+			<ul class="TabbedPanelsTabGroup">
+				<li class="TabbedPanelsTab" tabindex="0">Saved</li>
+				<li class="TabbedPanelsTab" tabindex="0">Posted</li>
+				<li class="TabbedPanelsTab" tabindex="0">Draft</li>
+				<li class="TabbedPanelsTab" tabindex="0">Message</li>
+			</ul>
+ 
+			<div class="TabbedPanelsContentGroup">
+				<div class="TabbedPanelsContent">
+					<div class="text">article1</div>
+					<div>article1</div>
+					<div>article1</div>
+					<div>article1</div>
+					<div>article1</div>
+					<div>article1</div>
+				</div>
+    
+				<div class="TabbedPanelsContent"> <div>article2<input name="Review" type="button" class="editbutton" value="Review"></div>
+				<div>article2<input name="Review" type="button" class="editbutton" value="Review"></div>
+				<div>article2<input name="Review2" type="button" class="editbutton" value="Review"></div>
+				<div>article2<input name="Review3" type="button" class="editbutton" value="Review"></div>
+				<div>article2<input name="Review4" type="button" class="editbutton" value="Review"></div>
+			</div>
+			
+			<div class="TabbedPanel/sContent">
+				<div>article3<input name="Edit" type="button" class="editbutton" value="Edit"></div>
+				<div>article3<input name="Edit" type="button" class="editbutton" value="Edit"></div>
+				<div>article3<input name="Edit" type="button" class="editbutton" value="Edit"></div>
+			</div>
+			
+			<div class="TabbedPanelsContent">
+				<div>article4<input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div>
+				<div>article4<input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div>
+				<div>article4<input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div>
+				<div>article4<input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div>
+			</div>
+		</div>
+		</div>
+
+	<div style="margin-left:650px;">
+		<button class="page"><a href="last page.html"> Last Page </a></button>
+		<button class="page"><a href="next page.html"> Next Page </a></button>
+		<br>
+	</div>
+ 
+    </div>
+       </div>
+	   
+    <div class="sidebar1">
+		<ul class="nav1">
+			<li><img <img src="../img/littleyellowman.jpeg" width="180" height="250" /></li>
+			<li><div align="center"><a href="post.html" class="BUTTONR">Post</a></div></li>
+			<li><div align="center"><a href="Me.html" class="BUTTONR">ME</a></div></li>
+			<li><div align="center"><a href="LogIn.html" class="BUTTONR">Log Out</a></div></li>
+			<li><div align="center"><a href="last page.html" class="BUTTONR">News</a></div></li>
+        </ul>
+	</div>
+     
+	<script type="text/javascript">
+		var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+		var TabbedPanels2 = new Spry.Widget.TabbedPanels("TabbedPanels2");
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$('.search').click(function () {
+				var key = $("#searchtext").val();
+				$('.h1').html('Search Result for ' + key);
+				$('.text').html(key);
+			});
+		});
+	</script>
+    </body>
+</html>

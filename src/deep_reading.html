@@ -1,0 +1,100 @@
+﻿<html>
+    <head>
+		<title>Example</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/page-extends.css" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+		<script src="../js/Windows.js" type="text/javascript"></script>    
+    </head>
+    
+    <body>
+    <tr>
+        <div class="c1">
+        <nav>
+            <ul class="Nav">
+                <li class="Nav" id="home"><a href="HomePage.html" class="homeIcon">Home</a></li>
+                <li class="Nav" id="news"><a href="NU Info.html">NU Info</a></li>
+                <li class="Nav" id="about"><a href="#about">Application</a></li>
+                <li class="Nav" id="services"  style="border-radius: 0 6px 6px 0;"><a href="#services">NU Life</a></li>
+                <button  class="search">Search</button>
+                <p style="float:right; margin-left:20px; margin-top:0px;"><input type="text" name="search" size="30" style="border-radius:6px;"/></p>
+            </ul>
+		</nav>
+	   
+    </tr>
+    <h1 CLASS="X">&nbsp;</h1>
+		<div class="info"> 
+            <div class="article">
+            <table  width="900" height="435" class="table">
+            <tr >
+                 <td width="137" class="article1"><div align="center"><img src="../img/tx2.png" width="100" height="80" /></div></td>
+                 <td> <div class="article1"><p>"Title: MS and PhD Programs in CS, CE, EE, and more"</p>
+                 <p>Author: Ann</p><p>Sheila Solomon, an editor/producer of Rivet News Radio and 2014 Ida B. Wells award recipient, will give an address entitled, “Journalism’s Diversity Legacy,” Tuesday, March, 4, at 5 p.m. in the McCormick Tribune Center Forum.
+
+				The lecture is Medill’s inaugural Ida B. Wells address. We all like this part!
+				Solomon was given her award at a gala in January, but students now get a chance to hear her story, said Associate Professor Ava Thompson Greenwell.
+
+				The Ida B. Wells award, given by Medill and the National Association of Black Journalists (NABJ), was first introduced in 1984 to honor journalists who displayed illustrious leadership in increasing opportunities for people of color in newsrooms and coverage of diverse communities.
+
+				“For many, many years, [Solomon] was involved with recruitment of journalists, particularly journalists who were just starting out in the business, and mentoring them,” Greenwell said. “She has played a pivotal role in diversifying a lot of newsrooms around the country today.”
+
+				Greenwell will kick off the event with a brief history of Ida B. Wells and the award. Following Greenwell, Professor Loren Ghiglione, who is a co-curator of the award and the 1987 award recipient, will talk about what the honor has meant to him. Finally, Professor Charles Whitaker will introduce Solomon.</p></div>
+				
+				<p><div>
+				<input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()">
+				<input name="reply" type="button" class="replybutton" value="Save" ></div></p>
+				</td>
+            </tr>
+            <tr>
+                 <td  width="137"class="article1" ><div align="center"><img src="../img/ship.jpg" width="100" height="80" /></div></td>
+                 <td> <div class="article1" ><p>That's amazing!!!.</p></div><p><div><input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div></p></td>
+            </tr>
+            <tr>
+                 <td  width="137" class="article1"><div align="center"><img src="../img/tx3.png" width="100" height="80" /></div></td>
+                 <td> <div class="article1">&nbsp;
+                 <p>Good.‬</p></div><p><div><input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div></p>
+                 </td>
+            </tr>
+			<tr>
+				<td  width="137" class="article1"><div align="center"><img src="../img/touxiang.png" width="100" height="80" /></div></td>
+				<td> <div class="article1">&nbsp;&quot;Thank you.</div><p><div><input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div></p></td>
+			</tr>
+			<tr>
+				<td  width="137" class="article1"><div align="center"><img src="../img/touxiang.png" width="100" height="80" /></div></td>
+				<td> <div class="article1">That's cool.</div><p><div><input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div></p></td>
+			</tr>
+			<tr>
+				<td  width="137" class="article1"><div align="center"><img src="../img/touxiang.png" width="100" height="80" /></div></td>
+				<td> <div class="article1">We love it!!!</div><p><div><input name="reply" type="button" class="replybutton" value="Reply" onClick="openWin()"></div></p></td>
+			</tr>
+			</table>
+				<div style="margin-left:800px;">
+				<button class="page"><a href="article_reading.html"> Back </a></button><br></div>
+			</div>
+		</div>
+		</div>
+		<div class="sidebar1">
+			<ul class="nav1">
+				<li><img <img src="../img/littleyellowman.jpeg" width="180" height="250" /></li>
+				<li><div align="center"><a href="post.html" class="buttonr">Post</a></div></li>
+				<li><div align="center"><a href="Me.html" class="buttonr">ME</a></div></li>
+				<li><div align="center"><a href="LogIn.html" class="buttonr">Log Out</a></div></li>
+				<li><div align="center"><a href="last page.html" class="buttonr">News</a></div></li>
+			</ul>
+		</div>
+     
+		<script type="text/javascript">
+			var TabbedPanels2 = new Spry.Widget.TabbedPanels("TabbedPanels2");
+		</script>
+		<script type="text/javascript" src="../js/js.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.search').click(function () {
+					var key = $("#searchtext").val();
+					$('.h1').html('Search Result for ' + key);
+					$('.text').html(key); 
+				});
+			});
+		</script>
+    </body>
+</html>

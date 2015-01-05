@@ -1,0 +1,31 @@
+body {
+        background-image: url("../img/cat paw.png");
+        background-repeat: no-repeat;
+        background-size: 800px 700px;
+        background-position:top;
+    }
+	.myButton {
+		background-color:transparent;
+		display:inline-block;
+		cursor:pointer;
+		color:white;
+		font-family:arial;
+		font-size:25px;
+	
+		text-decoration:none;
+		text-shadow:0px 1px 0px #2b665e;
+		width:5px;
+	}
+	.myButton:hover {
+		background-color:transparent;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+    .ca {
+        margin-left:150px;
+    }
+    .search {
+		margin-left:1000px;
+    }
